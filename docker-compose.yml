@@ -18,6 +18,7 @@ services:
     volumes:
       # 作業ディレクトリ（./ は docker-compose.yml がある場所を指します）
       - ./:/work
+      - /ST2007O/datasets:/work/dataset
 
     # GPUの使用設定
     deploy:
