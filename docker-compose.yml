@@ -3,8 +3,9 @@ version: '3.8'
 services:
   # サービス名（dev-containerなど、ご自身の分かりやすい名前を付けます）
   dev-container:
-    context: .  # Dockerfileのあるディレクトリ
-    dockerfile: .devcontainer/Dockerfile  # Dockerfileの名前
+    build:
+      context: .  # Dockerfileのあるディレクトリ
+      dockerfile: .devcontainer/Dockerfile  # Dockerfileの名前
 
     # コンテナ名
     container_name: llm-env
