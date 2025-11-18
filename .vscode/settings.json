@@ -1,0 +1,6 @@
+{
+    "pylint.enabled": false, // 研究用途においてはうざいだけなので無効化
+    "black-formatter.args": [
+        
+    ]
+}

@@ -7,5 +7,4 @@ wandb
 hqq
 optimum-quanto
 torchvision
-lightning
-pydantic
+hydra-core
